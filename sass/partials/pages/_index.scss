@@ -1,0 +1,91 @@
+// Estilo de index
+// Background Imagen
+.banner-background{
+	margin-top:-42px;
+	width:100%;
+	height:427px;
+	background:url(../img/slider-inicio2.jpg) center no-repeat;
+	 background-position: -134px -95px;
+}
+
+// Contenedor del Slider
+.banner-background-text{
+	width: 100%;
+	height: 427px;
+	margin: 50px auto;
+	position: relative;
+	margin-bottom: 0px;
+	background: rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+// Controeles del Slider
+.label-buttom{
+	padding: 6px;
+	background: $color-celeste;
+	position: absolute;
+	left: 50%;
+	bottom: 80px;
+	border-radius: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+	z-index: 999;
+}
+#label-position-one{
+	margin-left: -36px;
+}		
+#label-position-two{
+	margin-left: -12px;
+}				
+#label-position-three{
+	margin-left: 12px;
+}				
+#label-position-four{
+	margin-left: 36px;
+}		
+.label-buttom:hover{
+	opacity: 1;
+}
+.control-slider{ display: none;}
+
+// Formto de los Controles Activados
+				
+#first-slide:checked + #label-position-one { opacity: 1; }
+#second-slide:checked + #label-position-two { opacity: 1; }
+#third-slide:checked + #label-position-three { opacity: 1; }
+#fourth-slide:checked + #label-position-four { opacity: 1; }
+
+//Transicion del Slide
+.info-slide{
+	width: 400%;
+	height: 100%;
+	position: absolute;
+	list-style: none;
+	top: 100px;
+	left: 0;
+	overflow-y: hidden;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+//Formato del Slide		
+.slide-text{
+	width: 25%;
+	float: left;
+  text-align: center;
+  color: $color-blanco;
+  font-size: 25px;
+  margin-left: -25px;
+  padding-left: 56px;
+}
+.slide-text .autor-name{
+	color:$color-celeste;
+}
+
+//Posicion de los Slides				
+#first-slide:checked ~ .info-slide{ margin-left: -2%; }
+#second-slide:checked ~ .info-slide{ margin-left: -100%; }
+#third-slide:checked ~ .info-slide{ margin-left: -197%; }
+#fourth-slide:checked ~ .info-slide{ margin-left: -294%; }

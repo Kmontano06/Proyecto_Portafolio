@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a{
+ text-decoration: none;
+}
+.margin-content{
+	margin-left:74px;
+	margin-right:74px;
+}
+// Navegacion Principal
+.header-nav{
+	padding-bottom: 84px;
+	position:relative;
+}
+.image-logo{
+	display:inline-block;
+  width: 100px;
+  height: 38px;
+  margin-left: 74px;
+}
+.navigation-main{
+	position: fixed;
+  width: 100%;
+  background: $color-blanco;
+  height: 86px;
+  padding-top: 24px;
+  z-index: 1;
+}
+.list-navigation{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:580px;
+	padding-bottom:20px;
+}
+.list-navigation .list-navigation-item{
+	display:inline-block;
+}
+.list-navigation .list-navigation-link{
+	color:$color-negro;
+	font-family:$title-font;
+	font-size:15px;
+	padding:15px;
+
+	&:hover{
+		color:$color-blanco;
+		padding:15px;
+	}
+}
+// Active de todas las Paginas
+.active{
+	padding:15px;
+	border:2px solid;
+}
+.active-index{
+	border-color: $color-celeste;
+}
+.active-about{
+	border-color: $color-lila;;
+}
+.active-projects{
+	border-color: $color-vino;
+}
+.active-contact{
+	border-color: $color-rosa;
+}
+// Hover de todas las Paginas
+
+.link-hover-index:hover{
+	background: $color-celeste;
+}
+.link-hover-about:hover{
+	background: $color-lila;
+}
+.link-hover-projects:hover{
+	background: $color-vino;
+}
+.link-hover-contact:hover{
+	background: $color-rosa;
+}
+// Linea de Separacion Navegacion y Contenido
+.line-break{
+	border:3px solid;
+  width: 100%;
+}
+.line-break-index{
+   border-color:$color-celeste;
+}
+.line-break-about{
+   border-color:$color-lila;
+}
+.line-break-projects{
+   border-color:$color-vino;
+}
+.line-break-contact{
+   border-color:$color-rosa;
+}
+
+
+// Footer Principal
+
+.footer-contact{
+	background:$color-menta;
+	width:100%;
+  padding: 5px 0px;
+}
+.info-contact{
+	display:inline-block;
+	line-height:4px;
+	margin-left: 74px;
+}
+.list-redes{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	margin-left:440px;
+	margin-top:25px;
+}
+// Informacion del Contacto
+.info-contact .title-contact{
+	font-family:$title-font;
+	font-size:20px;
+	color:$color-blanco;
+}
+.info-contact .paragraph-info{
+	color:$color-negro;
+	font-size:12px;
+	font-family:$body-font;
+}
+.info-contact .dato-contact{
+	color:$color-blanco;
+	font-size:12px;
+}
+.link-dato-contact:hover{
+	color:$color-negro;
+	text-decoration:underline;
+}
+// Items de la lista de las Redes Sociales
+
+.list-redes .list-redes-item{
+	display:inline-block;
+}
+// Redes Sociales Logos
+.size-image{
+  width: 50px;
+  height: 51px;
+}
+.list-redes .list-item-github{
+		background: url(../img/github.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-facebook{
+		background: url(../img/facebook.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-twitter{
+		background: url(../img/twitter.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-google{
+		background: url(../img/googleplus.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-github:hover{
+		background: url(../img/github_hover.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-facebook:hover{
+		background: url(../img/facebook_hover.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-twitter:hover{
+		background: url(../img/twitter-hover.png) no-repeat;
+		background-size:50px 50px;
+}
+.list-redes .list-item-google:hover{
+		background: url(../img/googleplus_hover.png) no-repeat;
+		background-size:50px 50px;
+}

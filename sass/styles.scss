@@ -1,0 +1,16 @@
+/*
+
+		Estilos del Proyecto Portafolio
+
+*/
+
+//  Partials
+@import "partials/variables";
+@import "partials/placeholders";
+@import "partials/globals";
+@import "partials/layout";
+// Components Pages
+@import "partials/pages/index";  
+@import "partials/pages/about"; 
+@import "partials/pages/projects"; 
+@import "partials/pages/contact"; 

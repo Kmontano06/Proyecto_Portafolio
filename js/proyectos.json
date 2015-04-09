@@ -1,0 +1,28 @@
+{
+	"proyectos":[
+		{
+		  "nombre":"Proyecto Uno",
+		  "imgen-proyecto":"img/proy1.jpg"
+		},
+		{
+		  "nombre":"Proyecto Uno",
+		  "imgen-proyecto":"img/proy2.jpg"
+		},
+		{
+		  "nombre":"Proyecto Uno",
+		  "imgen-proyecto":"img/proy3.png"
+		},
+		{
+		  "nombre":"Proyecto Uno",
+		  "imgen-proyecto":"img/proy4.jpg"
+		},
+		{
+		  "nombre":"Proyecto Uno",
+		  "imgen-proyecto":"img/proy5.jpg"
+		},
+		{
+		  "nombre":"Proyecto Uno",
+		  "imgen-proyecto":"img/proy6.jpg"
+		}
+	]
+}

@@ -1,0 +1,80 @@
+//Seccion de informacion 
+
+.section-info{
+	margin-top:8px;
+	margin-bottom:25px;
+}
+//Contenedores 
+.info-rigth{
+	display:inline-block;
+	width:50%;
+	vertical-align:top;
+	margin-top: 40px;
+  text-align: left;
+  font-size: 15px;
+  font-family:$body-font;
+  margin-right: 60px;
+}
+.info-left{
+	display:inline-block;
+	width:40%;
+	vertical-align:top;
+}
+// Fotografia 
+.info-left img{
+	width:100%;
+}
+//Estilo de los Titulos y Subtitulos de  la Pagina
+.title-info{
+ 	color:$color-lila;
+ 	font-size: 30px;
+ 	font-family:$title-font;
+}
+.subtitle-info{
+ 	color:$color-celeste;
+ 	font-size: 20px;
+ 	font-family:$title-font;
+}
+
+//Seccion de Skills
+
+//Subtitulo Background Skills
+.background-subtitle{
+	width:35%;
+	background:$color-lila;
+	color:$color-blanco;
+	text-align:center;
+	padding:15px 0px;
+	margin:0 auto;
+}
+//Lista de Skills
+.list-skills{
+	list-style:none;
+	margin-top: 50px;
+  margin-bottom: 50px;
+}
+.list-skills-item{
+	display:inline-block;
+	vertical-align:top;
+	width: 17%;
+	margin:10px;
+  img{
+  	width: 100px;
+  	height: 100px;
+  	margin-left: 21%;
+  }
+  &:hover .info-skill-hover{
+  	background:$color-lila;
+  	color:$color-blanco;
+  }
+  .info-skill-hover{
+	  color: $color-negro;
+	  padding: 10px;
+	  margin-top: 10px;
+	  border-radius: 15px;
+	  height: 150px;
+	  font-weight: normal;
+	  text-align: center;
+	  border: 3px solid $color-lila;
+  }
+}
