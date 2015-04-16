@@ -3,28 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contacto</title>
-	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<header class = "header-nav">
-		<nav class = "navigation-main">
+	<header class="header-nav">
+		<nav class="navigation-main navigation-border-contact">
 			<img class="image-logo" src="img/logo.png">
-		  <ul class = "list-navigation">
+		  <ul class="list-navigation">
 		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact" href="index.html">Inicio</a></li>
 		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact" href="presentacion.html">Presentacion</a></li>
 		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact" href="proyectos.html">Proyectos</a></li>
 		  	<li class="list-navigation-item"><a class="list-navigation-link link-hover-contact active active-contact" href="contacto.html">Contacto</a></li>
-		  </ul>	
-		  		<hr class="line-break line-break-contact">	
+		  </ul>		
 		</nav>
 	</header>
 	<section class="section-contact">
 		<form action="" class="form-contact">
-			<input class="form-inputs name-contact" type="text" name="nombre" value="" placeholder="Nombre">
-			<input class="form-inputs email-contact" type="email" name="email" value="" placeholder="Correo">
+			<input id="input-name" class="form-inputs name-contact" type="text" name="nombre" value="" placeholder="Nombre" oninput="app.validacion('input-name')" required maxlength="20">
+			<input  id="input-email" class="form-inputs email-contact" type="email" name="email" value="" placeholder="Correo" oninput="app.validacion('input-email')" required maxlength="25">
 			<textarea class="form-inputs message-contact" placeholder="Mensaje"></textarea>
-			<button class="button-submit">Enviar</button>
+			<button class="button-submit" onclick="app.enviado()">Enviar</button>
 		</form>
 		<div class="info-contact">
 			<p class="paragraph-info">Telefono: 
@@ -38,12 +36,13 @@
 			</p>
 			<p class="paragraph-info">Direccion: <span class="dato-contact">Linda Vista, Patarra, Calle Laurel</span></p>
 		</div>
-		<ul class="list-redes social-links-contact">
-			<li class="list-redes-item"><a href="#"><div class="size-image list-item-github"></div></a></li>
-			<li class="list-redes-item"><a href="#"><div class="size-image list-item-facebook"></div></a></li>
-			<li class="list-redes-item"><a href="#"><div class="size-image list-item-twitter"></div></a></li>
-			<li class="list-redes-item"><a href="#"><div class="size-image list-item-google"></div></a></li>
-	  </ul><!--https://www.github.com, http://www.facebook.com, http://www.twitter.com,https://plus.google.com/u/0/--> 
+		<ul class="list-network">
+			<li class="list-network-item"><a target="_blank" href="https://github.com/Kmontano06"><div class="size-image list-item-github"></div></a></li>
+			<li class="list-network-item"><a target="_blank" href="http://www.facebook.com"><div class="size-image list-item-facebook"></div></a></li>
+			<li class="list-network-item"><a target="_blank" href="http://www.twitter.com"><div class="size-image list-item-twitter"></div></a></li>
+			<li class="list-network-item"><a target="_blank" href="https://plus.google.com/u/0/111324288481509924619/posts/p/pub"><div class="size-image list-item-google"></div></a></li>
+	  </ul>
 	</section>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

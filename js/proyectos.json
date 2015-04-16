@@ -2,27 +2,39 @@
 	"proyectos":[
 		{
 		  "nombre":"Proyecto Uno",
-		  "imgen-proyecto":"img/proy1.jpg"
+		  "imagen":"img/proy1.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
 		},
 		{
 		  "nombre":"Proyecto Uno",
-		  "imgen-proyecto":"img/proy2.jpg"
+		  "imagen":"img/proy2.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
 		},
 		{
 		  "nombre":"Proyecto Uno",
-		  "imgen-proyecto":"img/proy3.png"
+		  "imagen":"img/proy3.png",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
 		},
 		{
 		  "nombre":"Proyecto Uno",
-		  "imgen-proyecto":"img/proy4.jpg"
+		  "imagen":"img/proy4.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
 		},
 		{
 		  "nombre":"Proyecto Uno",
-		  "imgen-proyecto":"img/proy5.jpg"
+		  "imagen":"img/proy5.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
 		},
 		{
 		  "nombre":"Proyecto Uno",
-		  "imgen-proyecto":"img/proy6.jpg"
+		  "imagen":"img/proy6.jpg",
+		  "url": "#",
+		  "descripcion":"El proyecto trata de la creacion de un sitio web en donde utilmos elementos de HTML5, CSS3 y JavaScript para desarrollarlo"
 		}
 	]
 }
